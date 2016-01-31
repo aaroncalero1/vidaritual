@@ -1,0 +1,39 @@
+body{
+    overflow: hidden;
+    background-color: black;
+}	
+.filling {
+  -webkit-animation: filling_animation 3s linear infinite;
+  animation: filling_animation 3s linear infinite;
+  transition: width .6s ease-in-out;
+} 
+.filling2 {
+  -webkit-animation: filling_animation2 3s linear infinite;
+  animation: filling_animation2 3s linear infinite;
+  transition: width .6s ease-in-out;
+}
+@-webkit-keyframes filling_animation {
+  0% {top: -2000px}
+  100% {top: 0px}
+}
+@keyframes filling_animation {
+  0% {top: -2000px}
+  100% {top: 0px}
+}
+@-webkit-keyframes filling_animation2 {
+  0% {top: 0px}
+  100% {top: 2000px}
+}
+@keyframes filling_animation2 {
+  0% {top: 0px}
+  100% {top: 2000px}
+}
+.rain{
+  position:absolute;
+  transform: rotate(7deg);
+  z-index:1;
+  pointer-events: none;
+  width: 1400px;
+  height: 2000px;
+  opacity: 0;
+}

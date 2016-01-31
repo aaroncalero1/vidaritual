@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="assets/css/rl.css">
+<link rel="stylesheet" type="text/css" href="assets/css/wheel.css">
+<link rel="stylesheet" type="text/css" href="assets/css/chapters.css">
+<script type="text/javascript" src="assets/js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/js/d3.min.js"></script>
+<script type="text/javascript" src="assets/js/rl.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</head>
+<body style="margin:0px !important;">
+   <img id="rain1" class="rain filling" height="2000px" style="top:-2000px;">
+   <img id="rain2" class="rain filling2" height="2000px" >
+   <button id="playbutton" style="width: 150px; height: 59px; position: fixed; bottom:10px; background-color:transparent; color: white; font-family: shonen; border:none; font-size:34px;" onclick="RL.change_scene(0)"> Jugar </button>
+   <div class="title">Vida Ritual</div>
+   <div id="intro" style="width: 650px; height: 125px; top: 150px; position: absolute;font-family: hate; text-align: justify; pointer-events: none;"></div>
+   <div id="intro2" style="width: 650px; height: 125px; top: 350px; position: absolute;font-family: hate; text-align: justify; pointer-events: none;"></div>
+   <div id="intro3" style="width: 650px; height: 50px; top: 550px; position: absolute;font-family: hate; text-align: justify; pointer-events: none;"></div>
+   <div id="textbox" style="opacity:0;"></div>
+   <img id="main_char" src="" style="opacity:0">
+   <img id="extra" src="" style="opacity:0">
+   <img id="extra2" src="" style="opacity:0">
+   <div id="scene" class="chapter">
+      <img id="fondo" src="">
+   </div>
+   <div id="wheel" style="position:fixed;bottom:0px;"></div>
+   <script type="text/javascript" src="assets/js/decissionWheel.js"></script>
+   <script type="text/javascript" src="assets/js/decissionPoint.js"></script>
+   <script type="text/javascript" src="assets/js/jquery.playSound.js"></script>
+</body>
+</html>

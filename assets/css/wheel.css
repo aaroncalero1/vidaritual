@@ -1,0 +1,27 @@
+    .circles{
+        pointer-events:none;
+    }
+    .arc{
+        cursor: pointer;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      position: relative;
+    }
+
+    svg {
+        width: 550px;
+        height: 230px;
+    }
+
+    path.slice{
+        stroke-width:2px;
+    }
+
+    polyline{
+        opacity: .8;
+        stroke: black;
+        stroke-width: 2px;
+        fill: none;
+    }
